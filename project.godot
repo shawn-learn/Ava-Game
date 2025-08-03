@@ -1,0 +1,11 @@
+; Engine configuration file.
+; It's best to edit this file with the Godot editor.
+
+config_version=5
+
+[application]
+config/name="Ava Game"
+run/main_scene="res://main.tscn"
+
+[export]
+# Web export configured via .godot/export_presets.cfg

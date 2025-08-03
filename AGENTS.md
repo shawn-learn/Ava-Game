@@ -101,3 +101,12 @@ Codex can also:
 * Choices appear only when defined in the JSON.
 * Selecting a choice correctly transitions to the next scene.
 
+---
+
+## 🌍 Deployment
+
+* Pushing to `main` triggers `.github/workflows/deploy.yml`.
+* The workflow installs Godot headless and HTML5 export templates.
+* It exports the project using the `Web` preset to `build/`.
+* The contents of `build/` are published to the `gh-pages` branch via `peaceiris/actions-gh-pages`.
+* The latest build is available at `https://<username>.github.io/<repository-name>/`.
